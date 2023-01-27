@@ -7,6 +7,7 @@
     - [test.ipynb](#testipynb)
     - [test2.ipynb](#test2ipynb)
     - [wikidata-changes.ipynb](#wikidata-changesipynb)
+  - [Query dump](#query-dump)
 
 Queries and tool used to compare qEndpoint against other systems
 
@@ -37,3 +38,7 @@ Same as [test.ipynb](#testipynb) with more values.
 ### wikidata-changes.ipynb
 
 script used to do the experiments for [Easily setting up a local Wikidata SPARQL endpoint using the qEndpoint](https://ceur-ws.org/Vol-3262/paper10.pdf). These results were done the start of the query logs with a local endpoint vs remote endpoints, added to the fact that the first queries were easier to run than the others, these values can't really be taken into account.
+
+## Query dump
+
+We took the interval 7 of the [Wikidata_SPARQL_Logs](https://iccl.inf.tu-dresden.de/web/Wikidata_SPARQL_Logs/en) and we randomly pick 100k queries from it. These queries can be find in the `query_dump_100k.json`. We then tried the first queries over all the endpoints. Once 10k queries were sent without any error, we have the `query_dump_10k_valid.json` dataset, the `query_dump_10k_failed.json` is containing all the failing queries with all the valid queries.
