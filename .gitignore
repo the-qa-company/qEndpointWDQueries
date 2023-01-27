@@ -1,3 +1,12 @@
+*.png
+.venv
+venv
+*.csv
+*.tsv
+*.log
+.idea
+.ipynb_checkpoints
+origin_results
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +136,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.vscode
+.DS_Store

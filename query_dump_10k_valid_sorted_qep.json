@@ -1,0 +1,1502 @@
+[
+  [
+    "SELECT ?var1 \nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P31>  <http://www.wikidata.org/entity/Q4167410> .\n}\n",
+    676695.8570000001,
+    200
+  ],
+  [
+    "SELECT ?var1 \nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P31>  <http://www.wikidata.org/entity/Q215380> .\n  ?var1 ( <http://www.wikidata.org/prop/direct/P740>/<http://www.wikidata.org/prop/direct/P131>*) <http://www.wikidata.org/entity/Q25> .\n  ?var1  <http://www.wikidata.org/prop/direct/P136>  <http://www.wikidata.org/entity/Q837837> .\n}\nLIMIT 20\n",
+    9328.76,
+    189
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q668>  ?var1  ?var2 .\n }\n}\n",
+    7078.339,
+    282
+  ],
+  [
+    "SELECT ?var1 \nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P138>  <http://www.wikidata.org/entity/Q676555> .\n}\n",
+    5319.562999999999,
+    190
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q183>  ?var1  ?var2 .\n }\n}\n",
+    4748.604,
+    220
+  ],
+  [
+    "SELECT *\nWHERE {\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P214>  \"\".\n }\n  UNION\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P2799>  \"17612\".\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P20>  ?var2 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P19>  ?var3 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P103>  ?var4 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P18>  ?var5 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P27>  ?var6 .\n }\n}\nLIMIT 100\n",
+    4595.978999999999,
+    278
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q252>  ?var1  ?var2 .\n }\n}\n",
+    3963.833,
+    283
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q33>  ?var1  ?var2 .\n }\n}\n",
+    3595.093,
+    181
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q27>  ?var1  ?var2 .\n }\n}\n",
+    3559.009,
+    293
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q965>  ?var1  ?var2 .\n }\n}\n",
+    3457.6699999999996,
+    98
+  ],
+  [
+    "SELECT ?var1  ?var2  ?var3  ?var4 \nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P50>  <http://www.wikidata.org/entity/Q30001859> .\n  ?var1  <http://www.wikidata.org/prop/direct/P31>  ?var2 .\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P577>  ?var3 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P179>  ?var4 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P361>  ?var4 .\n }\n}\n",
+    3457.294,
+    119
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q794>  ?var1  ?var2 .\n }\n}\n",
+    3400.178,
+    295
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q223>  ?var1  ?var2 .\n }\n}\n",
+    3273.3819999999996,
+    236
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q1000>  ?var1  ?var2 .\n }\n}\n",
+    3095.568,
+    213
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q750>  ?var1  ?var2 .\n }\n}\n",
+    3034.5330000000004,
+    85
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q16635>  ?var1  ?var2 .\n }\n}\n",
+    2873.9750000000004,
+    242
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q23635>  ?var1  ?var2 .\n }\n}\n",
+    2748.328,
+    86
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q983>  ?var1  ?var2 .\n }\n}\n",
+    2513.4210000000003,
+    159
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q736>  ?var1  ?var2 .\n }\n}\n",
+    2479.674,
+    152
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q792>  ?var1  ?var2 .\n }\n}\n",
+    2302.895,
+    164
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q1008>  ?var1  ?var2 .\n }\n}\n",
+    2279.587,
+    150
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q41>  ?var1  ?var2 .\n }\n}\n",
+    2248.901,
+    235
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"5875400\".\n}\n",
+    2237.52,
+    299
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q33788>  ?var1  ?var2 .\n }\n}\n",
+    2211.594,
+    194
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q203396>  ?var1  ?var2 .\n }\n}\n",
+    2136.7509999999997,
+    210
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q1009>  ?var1  ?var2 .\n }\n}\n",
+    2114.3329999999996,
+    111
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q219>  ?var1  ?var2 .\n }\n}\n",
+    2093.112,
+    104
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q28>  ?var1  ?var2 .\n }\n}\n",
+    1932.469,
+    273
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1057-9230\".\n}\n",
+    1799.8829999999998,
+    135
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q155>  ?var1  ?var2 .\n }\n}\n",
+    1798.681,
+    93
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q790>  ?var1  ?var2 .\n }\n}\n",
+    1785.5030000000002,
+    254
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q230>  ?var1  ?var2 .\n }\n}\n",
+    1772.259,
+    221
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29236568\".\n}\n",
+    1748.875,
+    264
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q142>  ?var1  ?var2 .\n }\n}\n",
+    1716.434,
+    201
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q189>  ?var1  ?var2 .\n }\n}\n",
+    1644.064,
+    268
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q779415>  ?var1  ?var2 .\n }\n}\n",
+    1616.43,
+    116
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q8646>  ?var1  ?var2 .\n }\n}\n",
+    1524.5059999999999,
+    261
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q1007>  ?var1  ?var2 .\n }\n}\n",
+    1523.924,
+    247
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"5367976\".\n}\n",
+    1441.908,
+    178
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q30971>  ?var1  ?var2 .\n }\n}\n",
+    1391.954,
+    205
+  ],
+  [
+    "SELECT DISTINCT ?var1 \nWHERE {\n  ?var1  <http://www.w3.org/2000/01/rdf-schema#label>  \"string1\"@fr .\n  ?var1  <http://www.wikidata.org/prop/direct/P31>  <http://www.wikidata.org/entity/Q5> .\n}\n",
+    1350.0220000000002,
+    281
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"22209606\".\n}\n",
+    1328.214,
+    208
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q126125>  ?var1  ?var2 .\n }\n}\n",
+    1299.37,
+    199
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q1006>  ?var1  ?var2 .\n }\n}\n",
+    1287.029,
+    257
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"1534183\".\n}\n",
+    1183.071,
+    225
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q702>  ?var1  ?var2 .\n }\n}\n",
+    1160.209,
+    171
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q739>  ?var1  ?var2 .\n }\n}\n",
+    1147.53,
+    124
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q34617>  ?var1  ?var2 .\n }\n}\n",
+    1144.719,
+    193
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q25230>  ?var1  ?var2 .\n }\n}\n",
+    1050.4569999999999,
+    246
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q202023>  ?var1  ?var2 .\n }\n}\n",
+    959.3779999999999,
+    267
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"11863116\".\n}\n",
+    894.6800000000001,
+    121
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"12315628\".\n}\n",
+    888.0400000000001,
+    231
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"22815113\".\n}\n",
+    802.176,
+    127
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q783>  ?var1  ?var2 .\n }\n}\n",
+    770.668,
+    266
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q35>  ?var1  ?var2 .\n }\n}\n",
+    738.067,
+    147
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q298>  ?var1  ?var2 .\n }\n}\n",
+    724.585,
+    118
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q224>  ?var1  ?var2 .\n }\n}\n",
+    711.028,
+    142
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"2838955\".\n}\n",
+    683.988,
+    131
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"421023\".\n}\n",
+    675.9,
+    157
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q6999>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    665.312,
+    61
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q225>  ?var1  ?var2 .\n }\n}\n",
+    660.13,
+    89
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29306608\".\n}\n",
+    644.951,
+    175
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q35555>  ?var1  ?var2 .\n }\n}\n",
+    588.5219999999999,
+    195
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29066723\".\n}\n",
+    553.5250000000001,
+    114
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q458>  ?var1  ?var2 .\n }\n}\n",
+    508.826,
+    170
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q4998375>  ?var1  ?var2 .\n }\n}\n",
+    488.016,
+    223
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q117>  ?var1  ?var2 .\n }\n}\n",
+    472.669,
+    226
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q657>  ?var1  ?var2 .\n }\n}\n",
+    465.946,
+    113
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q229>  ?var1  ?var2 .\n }\n}\n",
+    421.664,
+    132
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"8206845\".\n}\n",
+    402.306,
+    108
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q5>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    397.555,
+    53
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q921>  ?var1  ?var2 .\n }\n}\n",
+    347.10699999999997,
+    87
+  ],
+  [
+    "SELECT ?var1 \nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/direct/P31>/<http://www.wikidata.org/prop/direct/P279>*) <http://www.wikidata.org/entity/Q82799> .\n}\n",
+    304.707,
+    176
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org>  <http://schema.org/dateModified>  ?var1 .\n}\n",
+    273.846,
+    260
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q200686>  ?var1  ?var2 .\n }\n}\n",
+    266.40599999999995,
+    202
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q712>  ?var1  ?var2 .\n }\n}\n",
+    246.355,
+    182
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"759740\".\n}\n",
+    214.78,
+    250
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q962>  ?var1  ?var2 .\n }\n}\n",
+    214.744,
+    74
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q800>  ?var1  ?var2 .\n }\n}\n",
+    183.642,
+    128
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q31063>  ?var1  ?var2 .\n }\n}\n",
+    179.053,
+    122
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q17765809>  ?var1  ?var2 .\n }\n}\n",
+    172.62,
+    230
+  ],
+  [
+    "SELECT *\nWHERE {\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P214>  \"22163628\".\n }\n  UNION\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P2799>  \"64\".\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P20>  ?var2 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P19>  ?var3 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P103>  ?var4 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P18>  ?var5 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P27>  ?var6 .\n }\n}\nLIMIT 100\n",
+    167.376,
+    265
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q184>  ?var1  ?var2 .\n }\n}\n",
+    154.183,
+    52
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"16819038\".\n}\n",
+    153.911,
+    134
+  ],
+  [
+    "SELECT *\nWHERE {\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P214>  \"88059364\".\n }\n  UNION\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P2799>  \"24246\".\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P20>  ?var2 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P19>  ?var3 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P103>  ?var4 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P18>  ?var5 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P27>  ?var6 .\n }\n}\nLIMIT 100\n",
+    149.233,
+    88
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q242>  ?var1  ?var2 .\n }\n}\n",
+    136.114,
+    68
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0954-3007\".\n}\n",
+    133.298,
+    215
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"27628533\".\n}\n",
+    128.04299999999998,
+    292
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q31>  ?var1  ?var2 .\n }\n}\n",
+    120.05,
+    48
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"3035376\".\n}\n",
+    116.94699999999999,
+    126
+  ],
+  [
+    "SELECT ?var1 \nWHERE {\n  ?var1  ?var2  ?var3 .\n  ?var3 ( <http://www.w3.org/ns/prov#wasDerivedFrom>/<http://www.wikidata.org/prop/reference/P248>/<http://www.wikidata.org/prop/direct/P356> ) \"string1\".\n}\n",
+    102.854,
+    125
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"None\".\n}\n",
+    101.45800000000001,
+    232
+  ],
+  [
+    "SELECT DISTINCT *\nWHERE {\n  ?var1  ?var2  <http://de.dbpedia.org/resource/Werm> .\n}\n",
+    98.495,
+    298
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"10064380\".\n}\n",
+    98.184,
+    222
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q227>  ?var1  ?var2 .\n }\n}\n",
+    94.08800000000001,
+    20
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"11863117\".\n}\n",
+    91.847,
+    224
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0036-7672\".\n}\n",
+    82.51400000000001,
+    228
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"5826254\".\n}\n",
+    80.243,
+    212
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"15115325\".\n}\n",
+    68.996,
+    262
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"8206841\".\n}\n",
+    67.515,
+    206
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29104170\".\n}\n",
+    67.485,
+    149
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0028-4793\".\n}\n",
+    67.17399999999999,
+    130
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q228>  ?var1  ?var2 .\n }\n}\n",
+    65.826,
+    4
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q21203>  ?var1  ?var2 .\n }\n}\n",
+    65.32000000000001,
+    18
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q244>  ?var1  ?var2 .\n }\n}\n",
+    65.153,
+    49
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1052-2166\".\n}\n",
+    59.787,
+    287
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"10064384\".\n}\n",
+    59.117000000000004,
+    115
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"5493296\".\n}\n",
+    56.99,
+    263
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"27133919\".\n}\n",
+    55.452,
+    297
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1879-4068\".\n}\n",
+    53.821,
+    192
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q262>  ?var1  ?var2 .\n }\n}\n",
+    51.492999999999995,
+    6
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q902>  ?var1  ?var2 .\n }\n}\n",
+    49.815,
+    30
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q25228>  ?var1  ?var2 .\n }\n}\n",
+    47.367,
+    12
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q916>  ?var1  ?var2 .\n }\n}\n",
+    47.307,
+    15
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q781>  ?var1  ?var2 .\n }\n}\n",
+    46.029,
+    14
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1198-743X\".\n}\n",
+    44.916,
+    249
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"659904\".\n}\n",
+    42.660999999999994,
+    234
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"16816898\".\n}\n",
+    39.522,
+    238
+  ],
+  [
+    "SELECT DISTINCT *\nWHERE {\n  ?var1  ?var2  <http://de.dbpedia.org/resource/UVPG> .\n}\n",
+    39.338,
+    167
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29410478\".\n}\n",
+    39.154,
+    207
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"759765\".\n}\n",
+    38.938,
+    84
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"28623800\".\n}\n",
+    38.143,
+    211
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"9805799\".\n}\n",
+    36.907000000000004,
+    106
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29252157\".\n}\n",
+    36.172000000000004,
+    251
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"24042471\".\n}\n",
+    34.785000000000004,
+    274
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0364-2313\".\n}\n",
+    33.403,
+    237
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"25669134\".\n}\n",
+    32.592999999999996,
+    209
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"21648330\".\n}\n",
+    31.84,
+    269
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1198-743X\".\n}\n",
+    30.887999999999998,
+    156
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"20095909\".\n}\n",
+    30.735,
+    203
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    28.168,
+    136
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"1376461\".\n}\n",
+    25.615,
+    129
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q131083>  ?var1  ?var2 .\n }\n}\n",
+    24.655,
+    27
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"15115475\".\n}\n",
+    23.869,
+    90
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"20418863\".\n}\n",
+    23.345000000000002,
+    94
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"9805695\".\n}\n",
+    23.224,
+    204
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"22209613\".\n}\n",
+    22.407,
+    117
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"1597577\".\n}\n",
+    22.393,
+    163
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29104169\".\n}\n",
+    22.227,
+    255
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"22986956\".\n}\n",
+    21.438,
+    241
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"18577776\".\n}\n",
+    20.565,
+    146
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0007-1447\".\n}\n",
+    19.972,
+    155
+  ],
+  [
+    "SELECT *\nWHERE {\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P214>  \"106964661\".\n }\n  UNION\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P2799>  \"2468\".\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P20>  ?var2 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P19>  ?var3 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P103>  ?var4 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P18>  ?var5 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P27>  ?var6 .\n }\n}\nLIMIT 100\n",
+    19.179000000000002,
+    99
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"None\".\n}\n",
+    18.73,
+    78
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"25668742\".\n}\n",
+    18.105,
+    294
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0022-2895\".\n}\n",
+    17.992,
+    174
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"421023\".\n}\n",
+    17.349,
+    148
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"28893365\".\n}\n",
+    16.676,
+    271
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"27134140\".\n}\n",
+    16.397,
+    123
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29066813\".\n}\n",
+    14.593,
+    0
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0894-0282\".\n}\n",
+    14.556,
+    95
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q783794>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    14.462,
+    56
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"28623892\".\n}\n",
+    14.239999999999998,
+    8
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"16819038\".\n}\n",
+    14.239999999999998,
+    137
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"29410478\".\n}\n",
+    13.908999999999999,
+    217
+  ],
+  [
+    "SELECT ?var1  ?var2 \nWHERE {\n {\n   <http://www.wikidata.org/entity/Q5010304>  ?var1  ?var2 .\n }\n}\n",
+    13.499,
+    173
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"9805694\".\n}\n",
+    13.348,
+    272
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    12.645999999999999,
+    158
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0003-3944\".\n}\n",
+    12.373000000000001,
+    100
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"24042801\".\n}\n",
+    12.369,
+    97
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"22209237\".\n}\n",
+    11.802,
+    296
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"15115401\".\n}\n",
+    11.094,
+    168
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P932>/<http://www.wikidata.org/prop/statement/P932> ) \"1597577\".\n}\n",
+    10.992999999999999,
+    169
+  ],
+  [
+    "SELECT *\nWHERE {\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P214>  \"39642259\".\n }\n  UNION\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P2799>  \"519\".\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P20>  ?var2 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P19>  ?var3 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P103>  ?var4 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P18>  ?var5 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P27>  ?var6 .\n }\n}\nLIMIT 100\n",
+    10.484,
+    69
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0952-8180\".\n}\n",
+    9.921,
+    280
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"25669142\".\n}\n",
+    9.826,
+    112
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"20095901\".\n}\n",
+    9.725,
+    270
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org>  <http://schema.org/dateModified>  ?var1 .\n}\n",
+    9.428,
+    120
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q16521>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    9.389,
+    65
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29252146\".\n}\n",
+    9.264,
+    172
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29104171\".\n}\n",
+    9.108,
+    77
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q4167836>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    8.327,
+    39
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"None\".\n}\n",
+    8.301,
+    245
+  ],
+  [
+    "SELECT ?var1 \nWHERE {\n  ?var1  ?var2  ?var3 .\n  ?var3 ( <http://www.w3.org/ns/prov#wasDerivedFrom>/<http://www.wikidata.org/prop/reference/P248>/<http://www.wikidata.org/prop/direct/P356> ) \"string1\".\n}\n",
+    8.274000000000001,
+    81
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0026-4733\".\n}\n",
+    7.8919999999999995,
+    26
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0364-2313\".\n}\n",
+    7.8549999999999995,
+    248
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    7.443,
+    214
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q41176>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    7.398,
+    41
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    7.04,
+    218
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q618123>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    6.826,
+    59
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"10064669\".\n}\n",
+    6.654,
+    25
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    6.559,
+    34
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    6.415,
+    275
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0023-7213\".\n}\n",
+    6.355,
+    138
+  ],
+  [
+    "SELECT *\nWHERE {\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P214>  \"\".\n }\n  UNION\n {\n   ?var1  <http://www.wikidata.org/prop/direct/P2799>  \"18943\".\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P20>  ?var2 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P19>  ?var3 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P103>  ?var4 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P18>  ?var5 .\n }\n OPTIONAL {\n  ?var1  <http://www.wikidata.org/prop/direct/P27>  ?var6 .\n }\n}\nLIMIT 100\n",
+    6.289000000000001,
+    5
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"28893365\".\n}\n",
+    5.98,
+    286
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q11266439>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    5.942,
+    42
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"16816898\".\n}\n",
+    5.866,
+    240
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    5.849,
+    258
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q988108>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    5.6690000000000005,
+    54
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    5.627,
+    24
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    5.593,
+    276
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"29104170\".\n}\n",
+    5.452,
+    165
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29428040\".\n}\n",
+    5.372,
+    110
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    5.288,
+    179
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q13442814>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    5.2509999999999994,
+    50
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"29104169\".\n}\n",
+    5.168,
+    256
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    5.168,
+    259
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"29104171\".\n}\n",
+    5.1450000000000005,
+    72
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    5.061999999999999,
+    145
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    5.061000000000001,
+    243
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    5.038,
+    198
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"1534879\".\n}\n",
+    5.027,
+    22
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"19305758\".\n}\n",
+    5.006,
+    82
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0023-7213\".\n}\n",
+    4.947,
+    76
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"1534879\".\n}\n",
+    4.92,
+    19
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    4.787999999999999,
+    79
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    4.760999999999999,
+    284
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"22989836\".\n}\n",
+    4.655,
+    40
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0918-2918\".\n}\n",
+    4.6499999999999995,
+    33
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"20096027\".\n}\n",
+    4.628,
+    92
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    4.601,
+    75
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q4989906>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    4.567,
+    44
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    4.555,
+    45
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org>  <http://schema.org/dateModified>  ?var1 .\n}\n",
+    4.553,
+    186
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"16819090\".\n}\n",
+    4.537,
+    71
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"25669144\".\n}\n",
+    4.498,
+    1
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    4.446000000000001,
+    233
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q571>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    4.4190000000000005,
+    57
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    4.385,
+    55
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"2397-334X\".\n}\n",
+    4.36,
+    11
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q4167410>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    4.348999999999999,
+    58
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    4.339,
+    244
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"1534183\".\n}\n",
+    4.338,
+    227
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q83620>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    4.301,
+    62
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0952-8180\".\n}\n",
+    4.2620000000000005,
+    285
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    4.244000000000001,
+    191
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q1656682>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    4.151,
+    66
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P496>  \"string1\".\n}\n",
+    4.146999999999999,
+    32
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"9805694\".\n}\n",
+    4.135,
+    288
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"None\".\n}\n",
+    4.122,
+    21
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"22815113\".\n}\n",
+    4.118,
+    140
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29236578\".\n}\n",
+    4.09,
+    184
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"11863114\".\n}\n",
+    4.081,
+    16
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0022-2895\".\n}\n",
+    4.067,
+    183
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1057-9230\".\n}\n",
+    4.061,
+    143
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0954-3007\".\n}\n",
+    4.043,
+    219
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q11173>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    3.9709999999999996,
+    46
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29252137\".\n}\n",
+    3.9029999999999996,
+    83
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    3.9029999999999996,
+    279
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0918-2918\".\n}\n",
+    3.8939999999999997,
+    31
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"29236578\".\n}\n",
+    3.783,
+    180
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org>  <http://schema.org/dateModified>  ?var1 .\n}\n",
+    3.715,
+    151
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q7187>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    3.711,
+    43
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29429546\".\n}\n",
+    3.6740000000000004,
+    2
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q11344>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    3.665,
+    47
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    3.657,
+    177
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    3.641,
+    141
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"9805799\".\n}\n",
+    3.6350000000000002,
+    96
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0036-7672\".\n}\n",
+    3.6319999999999997,
+    229
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    3.554,
+    161
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0023-7213\".\n}\n",
+    3.512,
+    63
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"5811120\".\n}\n",
+    3.4619999999999997,
+    3
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"28623752\".\n}\n",
+    3.4619999999999997,
+    291
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1198-743X\".\n}\n",
+    3.401,
+    162
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q43229>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    3.4,
+    51
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    3.354,
+    216
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"None\".\n}\n",
+    3.311,
+    133
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0003-3944\".\n}\n",
+    3.2950000000000004,
+    105
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0023-7213\".\n}\n",
+    3.281,
+    139
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    3.274,
+    67
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"8206846\".\n}\n",
+    3.176,
+    9
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1198-743X\".\n}\n",
+    3.165,
+    70
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"28623888\".\n}\n",
+    3.165,
+    109
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1198-743X\".\n}\n",
+    3.1449999999999996,
+    252
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org>  <http://schema.org/dateModified>  ?var1 .\n}\n",
+    3.094,
+    187
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"27134335\".\n}\n",
+    3.074,
+    10
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"22989836\".\n}\n",
+    3.07,
+    28
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"21089248\".\n}\n",
+    3.041,
+    17
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1052-2166\".\n}\n",
+    3.034,
+    289
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    3.016,
+    185
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"27628650\".\n}\n",
+    2.988,
+    13
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29402411\".\n}\n",
+    2.983,
+    37
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    2.955,
+    154
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    2.934,
+    239
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"string1\".\n}\n",
+    2.9160000000000004,
+    153
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1198-743X\".\n}\n",
+    2.901,
+    64
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"16819090\".\n}\n",
+    2.891,
+    36
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    2.864,
+    290
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"1346795\".\n}\n",
+    2.833,
+    29
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    2.8240000000000003,
+    160
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q79529>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    2.801,
+    73
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org>  <http://schema.org/dateModified>  ?var1 .\n}\n",
+    2.796,
+    107
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    2.791,
+    188
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P698>/<http://www.wikidata.org/prop/statement/P698> ) \"29306608\".\n}\n",
+    2.75,
+    196
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"2439864\".\n}\n",
+    2.727,
+    38
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P496>  \"string1\".\n}\n",
+    2.721,
+    35
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0007-1447\".\n}\n",
+    2.689,
+    166
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0026-4733\".\n}\n",
+    2.68,
+    23
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    2.661,
+    253
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    2.661,
+    277
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org>  <http://schema.org/dateModified>  ?var1 .\n}\n",
+    2.659,
+    103
+  ],
+  [
+    "SELECT *\nWHERE {\n  <http://www.wikidata.org/entity/Q838948>  <http://www.w3.org/2000/01/rdf-schema#label>  ?var1Label .\n FILTER (  (  LANGMATCHES (  LANG (  ?var1Label  ) ,  \"en\" )  ) \n) .\n}\nLIMIT 1\n",
+    2.6380000000000003,
+    60
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1 ( <http://www.wikidata.org/prop/P356>/<http://www.wikidata.org/prop/statement/P356> ) \"string1\".\n}\n",
+    2.629,
+    80
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"0094-6176\".\n}\n",
+    2.62,
+    7
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P236>  \"1879-4068\".\n}\n",
+    2.579,
+    197
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    2.564,
+    102
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P356>  \"None\".\n}\n",
+    2.521,
+    101
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P698>  \"29236581\".\n}\n",
+    2.476,
+    91
+  ],
+  [
+    "SELECT *\nWHERE {\n  ?var1  <http://www.wikidata.org/prop/direct/P932>  \"\".\n}\n",
+    2.384,
+    144
+  ]
+]
