@@ -2,7 +2,6 @@
 .venv
 venv
 *.csv
-*.tsv
 *.log
 .idea
 .ipynb_checkpoints

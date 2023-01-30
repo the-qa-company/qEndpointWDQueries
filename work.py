@@ -7,9 +7,12 @@ import urllib
 import json
 import itertools
 
+# <<CONFIG POINT 1>>
+# Count of queries
 COUNT = 10_000
-
+# Do the test with only non recursive queries
 DO_NORMAL = True
+# Do the test with only recursive queries
 DO_RECURSIVE = True
 
 exclude = []
@@ -25,6 +28,7 @@ with open("wdlogsh.tsv") as file:
     tsv_file = csv.reader(file, delimiter="\t")
     for line in tsv_file:
         count = count + 1
+        # decode the query and remove header, a simple pattern is applied to filter path queries
         if count > 1:
             query = (
                 urllib.parse.unquote_plus(line[0])
@@ -36,6 +40,7 @@ print("sample size:", len(sample_r))
 
 
 def filter(x: str):
+    # Remove MINUS queries, unsupported by qEndpoint
     return "http://www.bigdata.com" in x or "MINUS" in x
 
 
@@ -44,9 +49,11 @@ sample = [x for x in sample_no_minus]
 
 
 def filter(x: str):
+    # Filter path queries
     return (">*" in x or ">+" in x or " | " in x or ">?" in x or " / " in x or "^(" in x) and ("REGEX" not in x)
 
 
+# Get recursive (path) queries
 rec_queries_startt = set(i for (i, e) in enumerate(sample) if filter(e))
 
 rec_queries_all = [e for e in sample if filter(e)]
@@ -75,6 +82,10 @@ if not (DO_NORMAL or DO_RECURSIVE):
     print("no DO_ set", f=sys.stderr)
     exit - 1
 
+
+# <<CONFIG POINT 2>>
+# the list of SPARQL endpoints
+# (query url, id, name)
 sparlq = [ComputedInfo(id, url, name) for url, id, name in [
     ("https://qlever.cs.uni-freiburg.de/api/wikidata", "ql", "QLever"),
     ("https://wikidata.demo.openlinksw.com/sparql", "vs", "Virtuoso"),
@@ -142,6 +153,7 @@ if DO_NORMAL:
 
     print("result wrote in file results.json")
 
+    # Write end file
     with open("results.json", "w") as f:
         json.dump(
             {
@@ -219,6 +231,7 @@ if DO_RECURSIVE:
 
     print("result wrote in file results.json")
 
+    # Write end file
     with open("results_rec.json", "w") as f:
         json.dump(
             {

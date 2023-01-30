@@ -19,9 +19,42 @@ This repository contains a lot of old scripts, the most importants are the [`wor
 
 - "rec" = Recursive (=Queries with a path query)
 
+To run these scripts from your own without using our sorted dataset, you need first to download and uncompress the query log file into `wdlogsh.tsv`.
+
 ### work.py
 
 This is the script used to query the endpoints.
+
+To config it, you need to open the file and search for the lines:
+
+- `# <<CONFIG POINT 1>>`, after this line you can configure tests without or with only recursive queries (aka path queries) or to increase the count of queries used from the `wdlogsh.tsv` file, the current one is 100k queries.
+- `# <<CONFIG POINT 2>>`, after this line you can configure the endpoints to send the queries.
+
+the results files will be written in the file `results.json` (non recursive) and `results_rec.json` (recursive) with the format:
+
+```json
+{
+  "engines": [
+      {
+          "id": "sparql endpoint id",
+          "name": "sparql endpoint name",
+          "time1": [
+            number
+          ],
+          "number_result1": [
+            number
+          ],
+          "error1": [
+            boolean
+          ]
+      }
+  ]
+}
+```
+
+- The ith element of time1 is the time to run the query i to run.
+- The ith element of number_result1 is the number of the result of the query i to run.
+- The ith element of error1 is if the ith query thrown an error.
 
 ### test3.ipynb
 
