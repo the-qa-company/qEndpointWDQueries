@@ -8,6 +8,7 @@
     - [test2.ipynb](#test2ipynb)
     - [wikidata-changes.ipynb](#wikidata-changesipynb)
   - [Query dump](#query-dump)
+- [BSBM Benchmark](#bsbm-benchmark)
 
 Queries and tool used to compare qEndpoint against other systems
 
@@ -75,3 +76,7 @@ script used to do the experiments for [Easily setting up a local Wikidata SPARQL
 ## Query dump
 
 We took the interval 7 of the [Wikidata_SPARQL_Logs](https://iccl.inf.tu-dresden.de/web/Wikidata_SPARQL_Logs/en) and we randomly pick 100k queries from it. These queries can be find in the `query_dump_100k.json`. We then tried the first queries over all the endpoints. Once 10k queries were sent without any error, we have the `query_dump_10k_valid.json` dataset, the `query_dump_10k_failed.json` is containing all the failing queries with all the valid queries.
+
+# BSBM Benchmark
+
+The benchmark to compare qendpoint with other systems using the Berlin SPARQL Benchmark (BSBM) is available in the [bsbm-bench](bsbm-bench/README.md) directory.
