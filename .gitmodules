@@ -1,0 +1,3 @@
+[submodule "qendpoint"]
+	path = qendpoint
+	url = https://github.com/the-qa-company/qEndpoint
