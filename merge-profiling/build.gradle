@@ -1,0 +1,29 @@
+plugins {
+    id 'application'
+    id "com.github.johnrengelman.shadow" version "7.1.2"
+}
+
+group = 'com.the_qa_company'
+version = '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'com.the_qa_company.qepmergeprofile.QEPMergeProfile'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    implementation 'com.the-qa-company:qendpoint:1.13.8'
+    implementation 'org.eclipse.rdf4j:rdf4j-rio-ntriples:4.3.2'
+
+}
+
+test {
+    useJUnitPlatform()
+}
